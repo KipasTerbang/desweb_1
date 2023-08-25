@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: start;
+  color: white;
+  height: 50px;
+  align-items: center;
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coloumn {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.informasi {
+  border: 5px solid rgb(251, 242, 157);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+}
+
+h3 {
+  margin: 20px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.responsif {
+  display: flex;
+  flex-direction: column;
+}
+
+.teras {
+  display: flex;
+  justify-content: start;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .coloumn {
+    flex: 50%;
+    max-width: 100%;
+  }
+  nav ul {
+    display: flex;
+    margin-right: 16px;
+  }
+  nav {
+    justify-content: space-between;
+  }
+}
