@@ -98,4 +98,7 @@ footer p {
   nav {
     justify-content: space-between;
   }
+  a:hover {
+    color: rgb(251, 242, 157);
+  }
 }
